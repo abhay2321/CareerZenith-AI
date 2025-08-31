@@ -37,7 +37,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ->
 
-# 🚀 CareerZenith - AI-Powered Career Development Platform
+# 🚀 CareerZenith(AC) - AI-Powered Career Development Platform
 
 CareerZenith is a comprehensive, AI-driven career development platform designed to revolutionize how professionals approach career growth. Built with cutting-edge technology, it provides personalized guidance, intelligent tools, and real-time market insights to accelerate professional success.
 
@@ -201,9 +201,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Documentation**: [docs.careerzenith.com](https://docs.careerzenith.com)
-- **Email**: support@careerzenith.com
-- **Discord**: [Join our community](https://discord.gg/careerzenith)
+- **Email**: abhaychaurasia122004@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -214,4 +212,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ by the CareerZenith Team**
+**Made with ❤️ by CZ-Abhay Chaueasia *
