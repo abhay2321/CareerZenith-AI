@@ -5,7 +5,7 @@ import React from 'react'
 import OnboardingForm from './_components/onboarding-form';
 
 const OnboardingPage = async () => {
-    // Check if user is already onboarded
+    //!  Check if user is already onboarded
     const {isOnboarded} = await getUserOnboardingStatus();
     
     if(isOnboarded){

@@ -88,6 +88,7 @@ const OnboardingForm = ({ industries }) => {
         <CardContent>
           <form className="space-y-6" onSubmit={handleSubmit(onSubmit)}>
             <div className="space-y-2">
+              {/* //! Industry */}
               <Label htmlFor="industry">Industry</Label>
               <Select
                 onValueChange={(value) => {
@@ -118,7 +119,7 @@ const OnboardingForm = ({ industries }) => {
               )}
             </div>
 
-            {/* subIndustry */}
+            {/* //! subIndustry */}
             {watchIndustry && (
               <div className="space-y-2">
                 <Label htmlFor="subIndustry">Specialization</Label>
@@ -146,7 +147,7 @@ const OnboardingForm = ({ industries }) => {
               </div>
             )}
 
-            {/* Experience */}
+            {/* //! Experience */}
             <div className="space-y-2">
               <Label htmlFor="experience">Year of Experience</Label>
               <Input
@@ -165,7 +166,7 @@ const OnboardingForm = ({ industries }) => {
               )}
             </div>
 
-            {/* skills */}
+            {/* //! skills */}
             <div className="space-y-2">
               <Label htmlFor="skills">Skills</Label>
               <Input
@@ -182,7 +183,7 @@ const OnboardingForm = ({ industries }) => {
               )}
             </div>
 
-            {/* Professional Bio Field */}
+            {/* //! Professional Bio Field */}
             <div className="space-y-2">
               <Label htmlFor="bio">Professional Bio</Label>
               <Textarea

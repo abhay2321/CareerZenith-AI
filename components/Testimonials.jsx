@@ -15,35 +15,42 @@ const testimonials = [
     role: "Software Engineer",
     image: '/ayushi.jpg',
     feedback:
-      '"The AI-powered interview prep was a game-changer. Landed my dream job at a top tech company!"',
+      ' CareerZenith\'s AI interview simulator was incredible! The questions were tailored to my industry, and the instant feedback helped me identify my weak areas. Within a month, I aced my interviews and landed my dream role!',
   },
   {
     name: 'Ankit Chaubey',
     role: 'Senior Developer',
     image: '/ankit.jpg',
     feedback:
-      '“I had the pleasure of working alongside Abhay Chaurasia on several frontend projects. Their proficiency in React, Tailwind CSS... A true asset to any team!”',
+      'The industry insights dashboard gave me real-time salary data and market trends that helped me negotiate a 30% salary increase. The AI-powered career guidance was exactly what I needed for my transition to product management.',
   },
   {
     name: 'Govind Chaubey',
-    role: 'Internship Mentor, IIT Kanpur',
+    role: 'Developer',
     image: '/govind.jpg',
     feedback:
-      '“As a frontend developer, Abhay Chaurasia showcased exceptional skills during their internship at KECHKRITI IIT Kanpur...”',
+      'The AI resume builder transformed my resume from generic to outstanding. My ATS score jumped from 45% to 92%! I went from zero callbacks to receiving 8 interview requests in just two weeks. This platform is a game-changer!',
   },
   {
     name: 'Javed Malik',
-    role: 'Project Lead',
+    role: 'Data Scientist',
     image: '/javed.jpg',
     feedback:
-      '“What sets Abhay Chaurasia apart as a frontend developer is their keen eye for detail and commitment to delivering pixel-perfect designs...”',
+      'The cover letter generator saved me hours of work. Each letter was personalized and professional. Combined with the interview prep, I felt confident throughout my job search. Highly recommend CareerZenith to anyone serious about career growth!',
   },
   {
     name: 'Nishant Pandey',
-    role: 'Project Manager, WorldAtlus',
+    role: 'Backend Developer',
     image: '/nishant.jpg',
     feedback:
-      '“The WorldAtlus project thrived thanks to Abhay Chaurasia’s frontend expertise. They not only developed a responsive and engaging user interface...”',
+      'As a career changer, the industry insights helped me understand what skills I needed to develop. The mock interviews with AI feedback prepared me perfectly. Now I am thriving in my new role in tech!',
+  },
+   {
+    name: 'Siddharth Rai',
+    role: 'Data Scientist',
+    image: '/PHOTO-2025-11-08-23-12-00.jpg',
+    feedback:
+      'CareerZenith\'s comprehensive approach to career development is unmatched. From resume building to interview prep to market insights - everything I needed was in one place. The AI assistant answered all my questions instantly!',
   },
 ];
 

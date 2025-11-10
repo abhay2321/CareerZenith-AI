@@ -15,18 +15,18 @@ export async function updateUser(data) {
   });
 
   if (!user) throw new Error("User Not Found");
-
+    //! all three transactions are work if any fail then all will rollback
   try {
     const result = await db.$transaction(
       async (tx) => {
-        // find if the industry exists
+        //! 1. find if the industry exists
         let industryInsight = await tx.industryInsight.findUnique({
           where: {
             industry: data.industry,
           },
         });
 
-        // If industry doesn't exist, create it with default value - will replace it with ai later
+        //! 2. If industry doesn't exist, create it with default value - will replace it with ai later
         if (!industryInsight) {
           const insights = await generateAIInsights(data.industry);
 
@@ -39,7 +39,7 @@ export async function updateUser(data) {
           });
         }
 
-        //update the user
+        //! 3. update the user
         const updatedUser = await tx.user.update({
           where: {
             id: user.id,

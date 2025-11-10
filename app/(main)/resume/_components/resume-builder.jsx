@@ -255,7 +255,7 @@ export default function ResumeBuilder({ initialContent }) {
 
             {/* summery */}
             <div className="space-y-4">
-              <h3 className="test-lg font-medium">Professional Summery</h3>
+              <h3 className="text-lg font-medium">Professional Summery</h3>
               <Controller
                 name="summery"
                 control={control}
@@ -274,7 +274,7 @@ export default function ResumeBuilder({ initialContent }) {
             </div>
 
             <div className="space-y-4">
-              <h3 className="test-lg font-medium">Skills</h3>
+              <h3 className="text-lg font-medium">Skills</h3>
               <Controller
                 name="skills"
                 control={control}
@@ -293,7 +293,7 @@ export default function ResumeBuilder({ initialContent }) {
             </div>
 
             <div className="space-y-4">
-              <h3 className="test-lg font-medium">Work Experience</h3>
+              <h3 className="text-lg font-medium">Work Experience</h3>
               <Controller
                 name="experience"
                 control={control}
@@ -313,7 +313,7 @@ export default function ResumeBuilder({ initialContent }) {
             </div>
 
             <div className="space-y-4">
-              <h3 className="test-lg font-medium">Education</h3>
+              <h3 className="text-lg font-medium">Education</h3>
               <Controller
                 name="education"
                 control={control}
@@ -333,7 +333,7 @@ export default function ResumeBuilder({ initialContent }) {
             </div>
 
             <div className="space-y-4">
-              <h3 className="test-lg font-medium">Projects</h3>
+              <h3 className="text-lg font-medium">Projects</h3>
               <Controller
                 name="projects"
                 control={control}

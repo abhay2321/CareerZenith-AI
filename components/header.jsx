@@ -10,6 +10,7 @@ import {
   LayoutDashboard,
   PenBox,
   StarsIcon,
+  MessageSquare,
 } from "lucide-react";
 import {
   DropdownMenu,
@@ -51,7 +52,7 @@ const Header = async() => {
               <DropdownMenuTrigger asChild>
                 <Button>
                   <LayoutDashboard className="h-4 w-4" />
-                  <span className="hidden md:block"> Industry Insights</span>
+                  <span className="hidden md:block"> More tools</span>
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent>
@@ -74,6 +75,12 @@ const Header = async() => {
                   <Link href={"/interview"} className="flex items-center gap-2">
                     <GraduationCap className="h-4 w-4" />
                     <span>Interview Prep</span>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link href={"/ai-chat"} className="flex items-center gap-2">
+                    <MessageSquare className="h-4 w-4" />
+                    <span>AI Assistant</span>
                   </Link>
                 </DropdownMenuItem>
               </DropdownMenuContent>

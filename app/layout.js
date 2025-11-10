@@ -5,6 +5,7 @@ import Header from "@/components/header";
 import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
 import { Toaster } from "sonner";
+import Chatbot from "@/components/chatbot";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,6 +32,9 @@ export default function RootLayout({ children }) {
 
             <main className="min-h-screen"> {children} </main>
              <Toaster richColors /> 
+
+            {/* Chatbot */}
+            <Chatbot />
 
             {/* footer */}
             <footer className="bg-muted/50 py-6">
