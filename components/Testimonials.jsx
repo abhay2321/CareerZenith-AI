@@ -59,7 +59,7 @@ export default function Testimonials() {
     <section id="testimonials" className="w-full py-10 relative overflow-hidden bg-gray-900 text-white">
       <div className="absolute inset-0 z-0 grid-background"></div>
       <h2 className="text-3xl mt-5 mb-2 sm:text-[40px] sm:w-max relative z-10 font-bold px-4 py-2 mx-auto text-center bg-gradient-to-r from-blue-950 to-yellow-200 bg-clip-text text-transparent sm:border-2  rounded-md animate-fade-in">
-        What My Clients Are Saying
+        What My Clients Are Saying?
       </h2>
 
       <Swiper
@@ -100,4 +100,5 @@ export default function Testimonials() {
       </Swiper>
     </section>
   );
+
 }
